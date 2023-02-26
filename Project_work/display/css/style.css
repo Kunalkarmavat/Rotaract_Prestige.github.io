@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.form-group .form-control {
+  width: 18rem;
+  margin: 1rem;
+  display: inline;
+}
+.form-group .submit {
+  width: 100%;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(45deg, #43058e 0%, #ff0044 100%);
+  /* From https://css.glass */
+}
+body .container td {
+  font-weight: normal;
+  font-size: 1em;
+  box-shadow: 0 2px 2px -2px #0e1119;
+}
+body .container {
+  text-align: left;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 2em 0;
+}
+body .container td,
+body .container th {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+body .container td:first-child {
+  color: #fb667a;
+}
+body .container tr:hover {
+  background-color: #464a52;
+  box-shadow: 0 6px 6px -6px #0e1119;
+}
+body .container td:hover {
+  background-color: #d80b6d;
+  color: #fbf6f8;
+  font-weight: bold;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+@media (max-width: 800px) {
+  body .container td:nth-child(4),
+  body .container th:nth-child(4) {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
