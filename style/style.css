@@ -1,0 +1,107 @@
+.Rotaract {
+  color: rgb(247, 225, 225);
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.margin_text {
+  margin-bottom: 9rem;
+}
+.margin_text h2 {
+  font-size: 5rem;
+}
+
+.carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.fa-circle-play {
+  font-size: 6rem;
+  position: relative;
+  top: -15rem;
+  right: -13rem;
+  color: #ff0066;
+}
+@media screen and (max-width: 750px) {
+  .fa-circle-play {
+    top: -10rem;
+    right: -8rem;
+  }
+}
+
+.image-column .image-box img {
+  filter: brightness(70%);
+}
+
+.carousel-item img {
+  animation-name: example;
+  animation-duration: 25s;
+  transition-timing-function: cubic-bezier(0.96, 0.97, 0.01, 0.05);
+}
+
+@keyframes example {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+.fixImg {
+  height: 70vh;
+  background-image: url("../images/happy_children.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  color: rgb(255, 232, 252);
+}
+.fixImg .content-box {
+  margin-top: 15rem;
+  position: relative;
+  right: -2rem;
+}
+.fixImg .content-box h2 {
+  font-size: 6rem;
+  color: white;
+}
+
+iframe {
+  width: 100%;
+  background-color: red;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .main-header .header-upper .inner-container {
+    background-color: #121a4a;
+  }
+}
+
+.nav-outer .mobile-nav-toggler {
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 750px) {
+  .nav-outer .mobile-nav-toggler {
+    color: #ff0066;
+    font-size: 3rem;
+    position: relative;
+    top: 1rem;
+  }
+}
+
+.main-menu .navigation a {
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .row {
+    --bs-gutter-x: -3.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+
+/* end */
